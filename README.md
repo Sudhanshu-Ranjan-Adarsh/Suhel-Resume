@@ -5,10 +5,10 @@ The SUHEL resume that I've made on collage PC while practicing during LAB. It in
   This is a basic page showing the layout of Mr. Suhel that I've made during class LAB.
 
 
-## Features
-  -Simple page
-  --Sone content of CSS
-  -Simple designing
-  --Short
+## Features<br>
+  -Simple page<br>
+  --Sone content of CSS<br>
+  -Simple designing<br>
+  --Short<br>
 
 ## Created and maintained by **Sudhanshu Ranjan Adarsh**
