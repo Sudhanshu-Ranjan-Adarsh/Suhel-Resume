@@ -1,0 +1,167 @@
+body{
+    background-color: #ffffff;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px;
+}
+
+.container{
+    display: flex;
+    flex:5;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 5px solid;
+    border-radius: 8px;
+    margin: 20px;
+    margin-right: 20px;
+    background-color: #ffff;
+    height: fit-content;
+    width: max-content;
+}
+#column1{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align: left;
+    padding: 10px;
+    margin: none;
+    border-radius: none;
+    background-color: #ff00ff;
+    height: max-content;
+   
+}
+#con{
+  line-height: 5px;
+  padding-bottom: 3px;
+}
+#Column2{
+    display: block;
+    flex:1;
+    justify-content: center;
+    text-align: right;
+    width: max-content;
+    height: max-content;
+    margin: 10px;
+    padding: 10px;
+    background-color: #33ff00;
+}
+
+#head{
+    color: brown;
+    display: flex;
+    font-family: Segoe UI;
+}
+#co{
+  color: #000;
+  opacity: 100%;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: Times New Roman;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+  padding: 5px;
+  margin-left: 2px;
+}
+.prof{
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#prof{
+  display: flex;
+  color: #ff00ff;
+}
+
+#work{
+  display: flex;
+  color: #ff00ff;
+}
+.work{
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.dec{
+  color:#000000;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+#dec{
+  display: flex;
+  color: #ff00ff;
+}
+#contact{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+}
+#contact::after{
+  border-bottom: 1px solid #ff0;
+  flex: 1;
+  margin-left: 5px;
+  content: "";
+}
+ #education{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: left;
+}
+#education::after{
+  content: "";
+  flex: 1;
+  margin-left: 5px;
+  border-bottom: 1px solid #ff0;
+  
+}
+#skills{
+   font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: left;
+    align-items: center;
+    display: flex;
+ 
+}
+#skills::after{
+  content: "";
+  flex: 1;
+  margin-left: 5px;
+  border-bottom:1px solid #ff0;
+}
+#lang{
+    font-size: 25pxpx;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}#lang::after{
+  content: "";
+  flex: 1;
+  margin-left: 5px;
+  border-bottom:1px solid #ff0;
+}
+
+h2{
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ 
